@@ -14,7 +14,7 @@
 body{
     background: #fff;
     overflow-x: hidden;
-    font-family: 'Grandstander', cursive;
+    font-family: 'Patrick Hand', cursive;
 }
 
 /*Menu de navegacion*/
@@ -148,3 +148,77 @@ body{
     background: var(--blue);
 }
 /*end IMG header*/
+
+
+/*acerca nosotros*/
+.acerca-de{
+    width: 100%;
+    margin-top: 120px;
+}
+
+.acerca-de .info-nosotros{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.acerca-de .info-nosotros h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.acerca-de .info-nosotros p{
+    text-align: center;
+    font-size: 17px;
+    color: var(--black);
+    line-height: 35px;
+    margin: 10px 0;
+}
+
+.acerca-de .info-nosotros .about-gallery{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.acerca-de .info-nosotros .about-gallery img{
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.acerca-de .info-nosotros .about-more{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.acerca-de .info-nosotros .about-more button{
+    width: 120px;
+    height: 40px;
+    background: var(--red);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.acerca-de .info-nosotros .about-more button:hover{
+    background: var(--blue);
+}
+/*end acerca nosotros*/
