@@ -294,3 +294,94 @@ body{
     cursor: pointer;
 }
 /*end nuestros proyectos*/
+
+/*testimonios*/
+.testimonios{
+    width: 100%;
+    margin-top: 120px;
+}
+
+.testimonios .testimonios-title{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.testimonios .testimonios-title h2{
+    font-size: 50px;
+    color: var(--black);
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.testimonios .testimonios-title hr{
+    width: 60%;
+    margin: auto;
+    height: 2px;
+    background: var(--black);
+    border: none;
+}
+
+.testimonios .box-testimonios{
+    width: 90%;
+    margin:80px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.testimonios .box-testimonios .card-testimonios{
+    width: 45%;
+    margin: 20px;
+}
+
+.testimonios .box-testimonios .card-testimonios .card-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonios .box-testimonios .card-testimonios .card-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.testimonios .box-testimonios .card-testimonios .testimonios-text{
+    width: 100%;
+    border: 2px solid var(--red);
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.testimonios .box-testimonios .card-testimonios .testimonios-text h4{
+    color: var(--red);
+    font-weight: normal;
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: 200ms;
+}
+
+.testimonios .box-testimonios .card-testimonios .testimonios-text p{
+    font-size: 19px;
+    color: var(--black);
+    text-align: center;
+    line-height: 35px;
+    transition: 200ms;
+}
+
+.testimonios .box-testimonios .card-testimonios .testimonios-text:hover{
+    border: 2px solid var(--blue);
+}
+
+.testimonios .box-testimonios .card-testimonios .testimonios-text:hover h4{
+    color: var(--blue);
+}
+/*end testimonios*/
